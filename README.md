@@ -1,4 +1,5 @@
 <h1 align="center" id="title">New Company Success Predictor</h1>
+<p align="center">Keren Haruvi, Omri Itzhaki, Or Dado</p>
 
 <h2>Contents</h2>
 <ul>
