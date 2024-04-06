@@ -3,7 +3,7 @@
 
 <h2>📋 Contents</h2>
 <ul>
-    <li><a href="#section1">Introduction</a></li>
+    <li><a href="#section1">Overview</a></li>
     <li><a href="#section2">Installation</a></li>
 </ul>
 
