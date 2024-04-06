@@ -10,7 +10,7 @@
 <h2 id="section1">Overview:</h2>
 <p id="description">Understanding the potential success of a new company is crucial for various stakeholders, including job seekers, employees, investors, and stakeholders. This project aims to address the research question: "How likely is a new company to succeed?" We focus on measures of stability, growth, and popularity for new companies, leveraging LinkedIn data and Google Trends.</p> 
 
-<img src="https://github.com/maayan-aytek/custom_tales/assets/81248290/878fbd3b-c6a1-4666-94dc-ce766516afef" width="250" align="center"/>
+<img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/project%20logo.jpeg" width="250" align="center"/>
 
 <h2 id="section2">🛠️ Installation Steps:</h2>
 
