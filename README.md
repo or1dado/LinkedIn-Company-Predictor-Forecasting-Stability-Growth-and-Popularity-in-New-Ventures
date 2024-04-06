@@ -1,7 +1,7 @@
 <h1 align="center" id="title">New Company Success Predictor</h1>
 <p align="center">Keren Haruvi, Omri Itzhaki, Or Dado</p>
 
-<h2>📋 Contents</h2>
+<h2>📁 Contents</h2>
 <ul>
     <li><a href="#section1">Overview</a></li>
     <li><a href="#section2">Installation</a></li>
@@ -32,41 +32,41 @@
 
 </ol>
 
-<h2 id="section3">Data Collection and Integration</h2>
+<h2 id="section3">👩🏻‍💻 Data Collection and Integration</h2>
 <ul>
 <li>Utilized LinkedIn's company dataset, filtering by foundation year to distinguish between established and new companies.</li>
 <li>Gathered additional time-series data from Google Trends by querying company names.</li>
 <li>Integrated Google Trends data for stability, popularity, and growth insights into our predictive models.</li>
 </ul>
 
-<h2 id="section4">Data Analysis and Feature Selection</h2>
+<h2 id="section4">📊 Data Analysis and Feature Selection</h2>
 <ul>
 <li>Preprocessed LinkedIn data by handling missing values and excluding overly common or rare values.</li>
 <li>Performed column transformations and feature engineering to enhance model performance.</li>
 <li>Employed various methodologies for stability, popularity, and growth measures.</li>
 </ul>
 
-<h2 id="section5">AI Methodologies</h2>
+<h2 id="section5">🧠 AI Methodologies</h2>
 <ul>
 <li>Stability Measure: Utilized cosine similarity between new and established companies to predict stability.</li>
 <li>Popularity Measure: Trained a linear regression classifier model to predict popularity labels.</li>
 <li>Growth Measure: Fitted SARIMA models to forecast growth trends for new companies.</li>
 </ul>
 
-<h2 id="section6">Results and Evaluation</h2>
+<h2 id="section6">📋 Results and Evaluation</h2>
 <ul>
 <li>Stability, popularity, and growth scores were predicted for new companies.</li>
 <li>Manual evaluations and sampling techniques validated the accuracy of predictions.</li>
 <li>Identified industries with the highest potential for success based on model results.</li>
 </ul>
 
-<h2 id="section7">Limitations and Reflection</h2>
+<h2 id="section7">🚧 Limitations and Reflection</h2>
 <ul>
 <li>Resource and technological constraints impacted data scraping and model optimization.</li>
 <li>Data limitations and quality issues introduced uncertainties and biases in the results.</li>
 </ul>
 
-<h2 id="section8">Conclusions</h2>
+<h2 id="section8">🗨 Conclusions</h2>
 <ul>
 <li>Successfully answered the research question regarding new company success likelihood.</li>
 <li>Provided valuable insights for stakeholders, laying a foundation for future research and analysis.</li>
