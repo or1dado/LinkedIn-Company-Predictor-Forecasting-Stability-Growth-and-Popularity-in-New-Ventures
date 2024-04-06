@@ -13,7 +13,7 @@
 <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/project%20logo.jpeg" width="250" align="center"/>
 
 <h2 id="section2">⚙️ Installation</h2>
-<ol>
+    <ol>
         <li>Clone the GitHub repository:</li>
         <ul>
             <pre><code>https://github.com/or1dado/LinkedIn-Company-Success-Predictor.git</code></pre>
@@ -21,7 +21,7 @@
 
         <li>Install the required packages using pip:</li>
         <ul>
-                <pre><code>pip install -r requirements.txt</code></pre>
+            <pre><code>pip install -r requirements.txt</code></pre>
         </ul>
-</ol>
+    </ol>
 
