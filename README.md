@@ -16,7 +16,7 @@
 <ol>
 <li>Clone the GitHub repository:</li>
 <ul>
-<pre><code>https://github.com/or1dado/LinkedIn-Company-Success-Predictor.git</code></pre>
+<code>https://github.com/or1dado/LinkedIn-Company-Success-Predictor.git</code>
 </ul>
 
 <li>Install the required packages using pip:</li>
