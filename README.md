@@ -31,7 +31,7 @@
   </li>
   <li>
     <p>Run the "Project_preprocess" notebook. Before run this notebbok add the pathes of the datasets of the new and old companies.</p>
-      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="450" />
+      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="750" />
   </li>
   <li>
     <p>Run the "Create companies URLs for Scraping" notebook in Databricks again. This step is required to obtain updated URLs for the scraping process.</p>
