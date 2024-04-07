@@ -30,10 +30,17 @@
     <p>Run the "Merge code" notebook. This notebook will merge the output of the scraping process and create two datasets: one for new companies and the other for old companies. The merged datasets will be saved in the following path: "data/trend_data".</p>
   </li>
   <li>
-    <p>Run the "Project_preprocess" notebook. Before running this notebook, make sure to add the paths of the datasets for the new and old companies in Cell 4. Additionally, edit the paths where the output of the notebook will be saved in Cell 29.</p>
-    <p>Follow these steps as illustrated in the images below:</p>
-    <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="1050" />
-    <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_save_guide.jpg" width="1050" />
+    <ol>
+      <li>
+        <p>Run the "Project_preprocess" notebook. Before running this notebook, make sure to add the paths of the datasets for the new and old companies in Cell 4. Additionally, edit the paths where the output of the notebook will be saved in Cell 29.</p>
+        <p>Follow these steps as illustrated in the images below:</p>
+        <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="1050" />
+        <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_save_guide.jpg" width="1050" />
+      </li>
+      <li>
+        <p>Run the "Features_analysis" notebook in Databricks. This is optional if you want to explore the features. To run it, replace paths in cell 7 with those of the pre-process.</p>
+      </li>
+    </ol>
   </li>
   <li>
     <p>Run the "Project_part1_stability" notebook in Databricks again. Edit the paths in Cell 7 to match the paths saved in the pre-process phase. Specify the path to save the output of the notebook in Cell 15. This phase calculates the stability scores.</p>
