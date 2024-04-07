@@ -20,12 +20,15 @@
 
 <h2 id="section2">⚙️ How To Run?</h2>
 <ol>
+<li>Run Create companies URLs for Scraping notebook in databricks (Optional - if you want to do scraping by yourself)<br>The output of the notebook will use you in the scraping phase<br></li>
+<li>Use scrape code to scraping from the urls we extract from the previous phase (Optional - if you want to do scraping by yourself)<br><br></li>
+<li>
+    <ul>Run Merge code notebook<br>It would merge the output of the scraping and create 2 datasets one of new companies and the second old companies</ul>
+    <ul>The data is already in data file</ul>
+</li>
+<li>Run Feature analysis<br>The output of the notebook will use you in the scraping phase<br></li>
 <li>Run Create companies URLs for Scraping notebook in databricks<br>The output of the notebook will use you in the scraping phase<br></li>
-    
-<li>Run Create companies URLs for Scraping notebook in databricks</li>
-<li>Run Create companies URLs for Scraping notebook in databricks</li>
-<li>Run Create companies URLs for Scraping notebook in databricks</li>
-<li>Run Create companies URLs for Scraping notebook in databricks</li>
+
 
 <li>Install the required packages using pip:</li>
 <ul>
