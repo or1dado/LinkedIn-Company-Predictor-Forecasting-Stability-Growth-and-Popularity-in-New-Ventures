@@ -20,9 +20,8 @@
 
 <h2 id="section2">⚙️ How To Run?</h2>
 <ol>
-<li>Run Create companies URLs for Scraping notebook in databricks<br>The output of the notebook will use you in the scraping phase</li>
+<li>Run Create companies URLs for Scraping notebook in databricks<br>The output of the notebook will use you in the scraping phase<br></li>
     
-<ul>The output of the notebook will use you in the scraping phase</ul>
 <li>Run Create companies URLs for Scraping notebook in databricks</li>
 <li>Run Create companies URLs for Scraping notebook in databricks</li>
 <li>Run Create companies URLs for Scraping notebook in databricks</li>
