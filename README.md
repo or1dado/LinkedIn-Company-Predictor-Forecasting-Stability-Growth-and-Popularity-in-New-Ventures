@@ -35,16 +35,17 @@
     <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="1050" />
     <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_save_guide.jpg" width="1050" />
   </li>
-    <li>
+  <li>
     <p>Run the "Project_part1_stability" notebook in Databricks again. Edit the paths in Cell 7 to match the paths saved in the pre-process phase. Specify the path to save the output of the notebook in Cell 15. This phase calculates the stability scores.</p>
   </li>
   <li>
-    <p>Run the "Project_part2_popularity" notebook in Databricks again. Edit the paths in Cell 7 to match the paths saved in the pre-process phase. Also edit the path of the stability df saved in the phase 5 do it in cell 13. Specify the path to save the output of the notebook in Cell 17. This phase calculates the popularity scores.</p>
+    <p>Run the "Project_part2_popularity" notebook in Databricks again. Edit the paths in Cell 7 to match the paths saved in the pre-process phase. Also edit the path of the stability df saved in phase 5 in cell 13. Specify the path to save the output of the notebook in Cell 17. This phase calculates the popularity scores.</p>
   </li>
   <li>
     <p>Run the "Project_results" notebook in Databricks again to get results and perform analysis. Edit the paths in Cell 5 to match the paths saved in the pre-process phase. Also, edit the paths in Cells 7 and 9 to the output paths from phases 6 (stability) and 5 (popularity) respectively. To view the images in Cells 31 and 32, replace the paths with those in the image files ('images/quant.png', 'images/kodiak.png').</p>
   </li>
 </ol>
+
 
 
 
