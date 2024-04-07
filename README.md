@@ -4,12 +4,12 @@
 <h2>📁 Contents</h2>
 <ul>
     <li><a href="#section1">Overview</a></li>
-    <li><a href="#section2">Installation</a></li>
+    <li><a href="#section2">How To Run?</a></li>
     <li><a href="#section3">Data Collection and Integration</a></li>
     <li><a href="#section4">Data Analysis and Feature Selection</a></li>
     <li><a href="#section5">AI Methodologies</a></li>
     <li><a href="#section6">Results and Evaluation</a></li>
-    <li><a href="#section7">Limitations and Reflection</a></li>
+    <li><a href="#section7">Limitations</a></li>
     <li><a href="#section8">Conclusions</a></li>
 </ul>
 
@@ -18,12 +18,14 @@
 
 <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/project%20logo.jpeg" width="250" />
 
-<h2 id="section2">⚙️ Installation</h2>
+<h2 id="section2">⚙️ How To Run?</h2>
 <ol>
-<li>Clone the GitHub repository:</li>
-<ul>
-<pre><code>https://github.com/or1dado/LinkedIn-Company-Success-Predictor.git</code></pre>
-</ul>
+<li>Run Create companies URLs for Scraping notebook in databricks</li>
+<ul>The output of the notebook will use you in the scraping phase</ul>
+<li>Run Create companies URLs for Scraping notebook in databricks</li>
+<li>Run Create companies URLs for Scraping notebook in databricks</li>
+<li>Run Create companies URLs for Scraping notebook in databricks</li>
+<li>Run Create companies URLs for Scraping notebook in databricks</li>
 
 <li>Install the required packages using pip:</li>
 <ul>
@@ -60,7 +62,7 @@
 <li>Identified industries with the highest potential for success based on model results.</li>
 </ul>
 
-<h2 id="section7">🚧 Limitations and Reflection</h2>
+<h2 id="section7">🚧 Limitations</h2>
 <ul>
 <li>Resource and technological constraints impacted data scraping and model optimization.</li>
 <li>Data limitations and quality issues introduced uncertainties and biases in the results.</li>
