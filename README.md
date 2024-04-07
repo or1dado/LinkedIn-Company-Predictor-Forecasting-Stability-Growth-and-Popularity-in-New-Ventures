@@ -24,13 +24,14 @@
     <p>Run the "Create companies URLs for Scraping" notebook in Databricks. This step is optional and is only necessary if you want to perform the scraping process yourself. The output of the notebook will be used in the scraping phase.</p>
   </li>
   <li>
-    <p>Use the scrape code to perform scraping from the URLs extracted in the previous phase. This step is also optional and is only required if you want to conduct the scraping process yourself.</p>
+    <p>Use the "scrape code" to perform scraping from the URLs extracted in the previous phase. This step is also optional and is only required if you want to conduct the scraping process yourself. The data is already available in the data file.</p>
   </li>
   <li>
-    <p>Run the "Merge code" notebook. This notebook will merge the output of the scraping process and create two datasets: one for new companies and the other for old companies. The data is already available in the data file.</p>
+    <p>Run the "Merge code" notebook. This notebook will merge the output of the scraping process and create two datasets: one for new companies and the other for old companies and it will save in the folloing path: "data/trend_data".</p>
   </li>
   <li>
-    <p>Run the "Feature analysis" notebook. The output of this notebook will be used in the subsequent phases.</p>
+    <p>Run the "Project_preprocess" notebook. Before run this notebbok add the pathes of the datasets of the new and old companies.</p>
+      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/project%20logo.jpeg" width="250" />
   </li>
   <li>
     <p>Run the "Create companies URLs for Scraping" notebook in Databricks again. This step is required to obtain updated URLs for the scraping process.</p>
