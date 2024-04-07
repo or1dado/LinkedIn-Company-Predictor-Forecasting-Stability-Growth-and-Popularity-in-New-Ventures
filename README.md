@@ -16,7 +16,7 @@
 <h2 id="section1">📚 Overview:</h2>
 <p id="description">Understanding the potential success of a new company is crucial for various stakeholders, including job seekers, employees, investors, and stakeholders. This project aims to address the research question: "How likely is a new company to succeed?" We focus on measures of stability, growth, and popularity for new companies, leveraging LinkedIn data and Google Trends.</p> 
 
-<img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/project%20logo.jpeg" width=450 />
+<img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/project%20logo.jpeg" width="250" />
 
 <h2 id="section2">⚙️ How To Run?</h2>
 <ol>
@@ -31,7 +31,7 @@
   </li>
   <li>
     <p>Run the "Project_preprocess" notebook. Before run this notebbok add the pathes of the datasets of the new and old companies.</p>
-      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="250" />
+      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="450" />
   </li>
   <li>
     <p>Run the "Create companies URLs for Scraping" notebook in Databricks again. This step is required to obtain updated URLs for the scraping process.</p>
