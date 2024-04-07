@@ -27,24 +27,25 @@
     <p>Use the "scrape code" to perform scraping from the URLs extracted in the previous phase. This step is also optional and is only required if you want to conduct the scraping process yourself. The data is already available in the data file.</p>
   </li>
   <li>
-    <p>Run the "Merge code" notebook. This notebook will merge the output of the scraping process and create two datasets: one for new companies and the other for old companies and it will save in the folloing path: "data/trend_data".</p>
+    <p>Run the "Merge code" notebook. This notebook will merge the output of the scraping process and create two datasets: one for new companies and the other for old companies. The merged datasets will be saved in the following path: "data/trend_data".</p>
   </li>
   <li>
-    <p>Run the "Project_preprocess" notebook. Before run this notebbok add the pathes of the datasets of the new and old companies (Cell 4)A.</p>
-      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="1050" />
-      <p>Also edit the pathes the output of the notebook will save (Cell 29).</p>
-      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_save_guide.jpg" width="1050" />
+    <p>Run the "Project_preprocess" notebook. Before running this notebook, make sure to add the paths of the datasets for the new and old companies in Cell 4. Additionally, edit the paths where the output of the notebook will be saved in Cell 29.</p>
+    <p>Follow these steps as illustrated in the images below:</p>
+    <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="1050" />
+    <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_save_guide.jpg" width="1050" />
   </li>
   <li>
-    <p>Run the "Create companies URLs for Scraping" notebook in Databricks again. This step is required to obtain updated URLs for the scraping process.</p>
+    <p>Run the "Project_part1_popularity" notebook in Databricks again. Edit the paths in Cell 7 to match the paths saved in the previous phase. Also, specify the path to save the output of the notebook in Cell 15. This phase calculates the stability scores.</p>
   </li>
   <li>
-    <p>Install the required packages using pip:</p>
-    <ul>
-      <li><code>pip install -r requirements.txt</code></li>
-    </ul>
+    <p>Run the "Project_part2_stability" notebook in Databricks again. Edit the paths in Cell 7 to match the paths saved in the pre-process phase. Additionally, edit the path in Cell 13 to the output path from phase 5. Specify the path to save the output of the notebook in Cell 17. This phase calculates the popularity scores.</p>
+  </li>
+  <li>
+    <p>Run the "Project_results" notebook in Databricks again. Edit the paths in Cell 5 to match the paths saved in the pre-process phase. Also, edit the paths in Cells 7 and 9 to the output paths from phases 6 (stability) and 5 (popularity) respectively. To view the images in Cells 31 and 32, replace the paths with those in the image files ('images/quant.png', 'images/kodiak.png').</p>
   </li>
 </ol>
+
 
 
 <h2 id="section3">👩🏻‍💻 Data Collection and Integration</h2>
