@@ -20,22 +20,29 @@
 
 <h2 id="section2">⚙️ How To Run?</h2>
 <ol>
-<li>Run Create companies URLs for Scraping notebook in databricks (Optional - if you want to do scraping by yourself)<br>The output of the notebook will use you in the scraping phase<br></li>
-<li>Use scrape code to scraping from the urls we extract from the previous phase (Optional - if you want to do scraping by yourself)<br><br></li>
-<li>
-    <ul>Run Merge code notebook<br>It would merge the output of the scraping and create 2 datasets one of new companies and the second old companies</ul>
-    <ul>The data is already in data file</ul>
-</li>
-<li>Run Feature analysis<br>The output of the notebook will use you in the scraping phase<br></li>
-<li>Run Create companies URLs for Scraping notebook in databricks<br>The output of the notebook will use you in the scraping phase<br></li>
-
-
-<li>Install the required packages using pip:</li>
-<ul>
-<pre><code>pip install -r requirements.txt</code></pre>
-</ul>
-
+  <li>
+    <p>Run the "Create companies URLs for Scraping" notebook in Databricks. This step is optional and is only necessary if you want to perform the scraping process yourself. The output of the notebook will be used in the scraping phase.</p>
+  </li>
+  <li>
+    <p>Use the scrape code to perform scraping from the URLs extracted in the previous phase. This step is also optional and is only required if you want to conduct the scraping process yourself.</p>
+  </li>
+  <li>
+    <p>Run the "Merge code" notebook. This notebook will merge the output of the scraping process and create two datasets: one for new companies and the other for old companies. The data is already available in the data file.</p>
+  </li>
+  <li>
+    <p>Run the "Feature analysis" notebook. The output of this notebook will be used in the subsequent phases.</p>
+  </li>
+  <li>
+    <p>Run the "Create companies URLs for Scraping" notebook in Databricks again. This step is required to obtain updated URLs for the scraping process.</p>
+  </li>
+  <li>
+    <p>Install the required packages using pip:</p>
+    <ul>
+      <li><code>pip install -r requirements.txt</code></li>
+    </ul>
+  </li>
 </ol>
+
 
 <h2 id="section3">👩🏻‍💻 Data Collection and Integration</h2>
 <ul>
