@@ -30,8 +30,10 @@
     <p>Run the "Merge code" notebook. This notebook will merge the output of the scraping process and create two datasets: one for new companies and the other for old companies and it will save in the folloing path: "data/trend_data".</p>
   </li>
   <li>
-    <p>Run the "Project_preprocess" notebook. Before run this notebbok add the pathes of the datasets of the new and old companies.</p>
+    <p>Run the "Project_preprocess" notebook. Before run this notebbok add the pathes of the datasets of the new and old companies (Cell 4)A.</p>
       <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_guide.jpg" width="1050" />
+      <p>Also edit the pathes the output of the notebook will save (Cell 29).</p>
+      <img src="https://github.com/or1dado/LinkedIn-Company-Success-Predictor/blob/main/images/pre_process_save_guide.jpg" width="750" />
   </li>
   <li>
     <p>Run the "Create companies URLs for Scraping" notebook in Databricks again. This step is required to obtain updated URLs for the scraping process.</p>
