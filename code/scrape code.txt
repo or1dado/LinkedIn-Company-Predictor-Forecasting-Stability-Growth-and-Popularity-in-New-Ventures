@@ -1,0 +1,14 @@
+let url = new URL(input.url);
+url.searchParams.set('_l', 'en');
+navigate(url, {solve_captcha:true});
+let data = parse();
+collect({
+    url: new URL(location.href),
+  	table: data.table,
+//   	extractedValues:data.extractedValues
+});
+
+
+return {
+  table: $('table').text(),
+};
